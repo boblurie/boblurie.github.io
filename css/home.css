@@ -1,0 +1,59 @@
+body {
+  font-family:"Georgia",serif;
+  margin: 0;
+  }
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1000px; /* Used in mockup to enable scrolling */
+}
+
+.nav-cont {
+  z-index:5;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.nav-item a {
+  min-width: 200px;
+  display: block;
+  color: rgb(86, 25, 46);
+  text-align: center;
+  padding: 22px 10px 22px 0px;
+  text-decoration: none;
+}
+  
+.nav-item a:hover {
+  background-color: #e9e9e9;
+}
+
+.logo {
+  display: block;
+  max-height: 4.5rem;
+}
+
+.container {
+  padding:4rem 0px 0px 0px;
+  position: relative;
+  text-align: center;
+  font-size:5rem;
+  color: white;
+  margin: 0px -350px 0px -350px;
+}
+
+.centered-text {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
